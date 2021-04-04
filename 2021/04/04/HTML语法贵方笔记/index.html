@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="https://banyeqidi.github.io.git">
   <title>欢迎来到我的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="HTML语法规范笔记 所有标签必须在&lt;&gt;内，分为双标签和单标签两种 双标签:(后面那个标签需要加一个反斜杠)前面的为开始标签，后面的为结束标签。 单标签: 标签有包含关系（父子关系）和并列关系（兄弟关系）包含关系：  1&lt;head&gt;&lt;&#x2F;head&gt;  ​                     并列关系 ​">
+  <meta name="description" content="HTML语法规范笔记 所有标签必须在&lt;&gt;内，分为双标签和单标签两种 双标签: 1&lt;html&gt;&lt;&#x2F;html&gt;  (后面那个标签需要加一个反斜杠)前面的为开始标签，后面的为结束标签。 单标签: 1&lt;br &#x2F;&gt;  标签有包含关系（父子关系）和并列关系（兄弟关系）包含关系： 1234&lt;head&gt;    &lt;body&gt;    &lt;&#x2F;b">
 <meta property="og:type" content="article">
 <meta property="og:title" content="欢迎来到我的博客">
 <meta property="og:url" content="https://banyeqidi.github.io.git/2021/04/04/HTML%E8%AF%AD%E6%B3%95%E8%B4%B5%E6%96%B9%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="欢迎来到我的博客">
-<meta property="og:description" content="HTML语法规范笔记 所有标签必须在&lt;&gt;内，分为双标签和单标签两种 双标签:(后面那个标签需要加一个反斜杠)前面的为开始标签，后面的为结束标签。 单标签: 标签有包含关系（父子关系）和并列关系（兄弟关系）包含关系：  1&lt;head&gt;&lt;&#x2F;head&gt;  ​                     并列关系 ​">
+<meta property="og:description" content="HTML语法规范笔记 所有标签必须在&lt;&gt;内，分为双标签和单标签两种 双标签: 1&lt;html&gt;&lt;&#x2F;html&gt;  (后面那个标签需要加一个反斜杠)前面的为开始标签，后面的为结束标签。 单标签: 1&lt;br &#x2F;&gt;  标签有包含关系（父子关系）和并列关系（兄弟关系）包含关系： 1234&lt;head&gt;    &lt;body&gt;    &lt;&#x2F;b">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-04-04T07:28:34.312Z">
-<meta property="article:modified_time" content="2021-04-04T07:42:55.550Z">
+<meta property="article:modified_time" content="2021-04-04T07:47:43.795Z">
 <meta property="article:author" content="banyeqidi">
 <meta name="twitter:card" content="summary">
   
@@ -161,14 +161,21 @@
       
         <p>HTML语法规范笔记</p>
 <p>所有标签必须在&lt;&gt;内，分为双标签和单标签两种</p>
-<p>双标签:<html></html>(后面那个标签需要加一个反斜杠)前面的为开始标签，后面的为结束标签。</p>
-<p>单标签:<br></p>
-<h4 id="标签有包含关系（父子关系）和并列关系（兄弟关系）"><a href="#标签有包含关系（父子关系）和并列关系（兄弟关系）" class="headerlink" title="标签有包含关系（父子关系）和并列关系（兄弟关系）"></a>标签有包含关系（父子关系）和并列关系（兄弟关系）</h4><p>包含关系：<html> </html></p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>双标签:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<p>​                    </p>
-<p>并列关系<head></head></p>
-<p>​                <body></body></p>
+<p>(后面那个标签需要加一个反斜杠)前面的为开始标签，后面的为结束标签。</p>
+<p>单标签:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="标签有包含关系（父子关系）和并列关系（兄弟关系）"><a href="#标签有包含关系（父子关系）和并列关系（兄弟关系）" class="headerlink" title="标签有包含关系（父子关系）和并列关系（兄弟关系）"></a>标签有包含关系（父子关系）和并列关系（兄弟关系）</h4><p>包含关系：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>并列关系:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
 
       
 
